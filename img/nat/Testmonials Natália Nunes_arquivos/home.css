@@ -1,0 +1,36 @@
+*{ box-sizing:border-box; -webkit-font-smoothing:antialiased; }
+
+html, body{ height:100%; }
+#aspnetForm{ min-height:100%; position:relative; overflow:hidden;}
+
+.page_position_edit{ margin-top: 100px; }
+
+.extra { max-width:1900px; min-height:100vh;  margin:auto; box-shadow:0 0 3px rgba(0,0,0,.3); overflow:hidden; }
+.container{ width: 1174px; position:relative; margin:auto;}
+.cl{ display:block; content:''; clear:both; }
+
+.txt textarea,
+.txt input,
+.txt select { -webkit-appearance:none; -moz-appearance:none; appearance:none; }
+
+.fx{ position:fixed; }
+.abs{ position:absolute; }
+.rel{ position:relative; }
+
+.tj{ text-align:justify; }
+.tc{ text-align:center; }
+.tr{ text-align:right; }
+.tl{ text-align:left; }
+
+
+/*DEIXA A LISTA DE FORMA ORGANIZADA*/
+.lista:after{ display:block; content:''; clear: both;  }
+.lista li{ float:left; }
+
+.box-grid{ display:grid; }
+.box-grid.l-2{ grid-template-columns: repeat(2,1fr); }
+.box-grid.l-3{ grid-template-columns: repeat(3,1fr); }
+.box-grid.l-4{ grid-template-columns: repeat(4,1fr); }
+.box-grid.l-5{ grid-template-columns: repeat(5,1fr); }
+
+.box-flex{ display:flex; flex-wrap:wrap; flex-direction:row; }
