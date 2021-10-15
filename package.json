@@ -1,0 +1,24 @@
+{
+  "name": "bergnunes.github.io",
+  "version": "1.0.0",
+  "description": "Meu site pessoal",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergnunes/bergnunes.github.io.git"
+  },
+  "author": "berg nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bergnunes/bergnunes.github.io/issues"
+  },
+  "homepage": "https://github.com/bergnunes/bergnunes.github.io#readme"
+}
