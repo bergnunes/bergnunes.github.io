@@ -1,0 +1,70 @@
+		
+		img {
+			width: 150px;
+			display: block;
+			margin-left: auto;
+    		margin-right: auto;
+		}
+
+
+		body {
+			width: 80%;
+			margin-left: 10%;
+			font-family: montserrat;
+			background-color: #f7c20f;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-color: black;
+		}
+
+		thead {
+			background-color: #000;
+			color: #fff;
+		}
+
+		td, th {
+  		height: 40px;
+		}
+
+		em.pç {
+			font-size: 0.5rem;"
+		}
+
+		tbody > tr:nth-child(even) {
+  			background-color: #EEEEEE;
+		}
+
+		tbody > tr:hover {
+ 		 background-color: #fff;
+		}
+
+		button {
+			width: 15rem;
+			height: 5rem;
+			background-color: #01D002;
+			color: #000;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 10px;
+			font-family: montserrat;
+			font-size: 2rem;
+			border-color: none;
+		}
+
+		button:first-child:hover {
+  			background-color: #00FF00;
+  			color: #333;
+		}
+
+		button:active {
+		 	border-color: #000;
+		}
+
+		a {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}

@@ -26,10 +26,10 @@ fetch(URL_ESTADO)
     });
   });
 
-fetch(URL_CIDADE)
-  .then( (resposta) => resposta.json () )
-  .then( (cidade) => {
-    cidade.forEach((cadaCidade) => {
-      SELECT_CIDADE.innerHTML += `<option>${cadaCidade.nome}</option>`;
-    });
-  });
+// fetch(URL_CIDADE)
+//   .then( (resposta) => resposta.json () )
+//   .then( (cidade) => {
+//     cidade.forEach((cadaCidade) => {
+//       SELECT_CIDADE.innerHTML += `<option>${cadaCidade.nome}</option>`;
+//     });
+//   });
