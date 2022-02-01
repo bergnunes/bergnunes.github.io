@@ -3,45 +3,89 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style media="screen">
+
+	*{
+		font-family: sans-serif; arial;
+	}
+			.calc {
+				background-color: #cecece;
+				margin-top: 30%;
+				margin-left: 50%;
+				transform: translate(-50%,-50%);
+				width: 20rem;
+				height: 20rem;
+				border-radius: 15px;
+				padding: 10px;
+			}
+
+			.titulo {
+				text-align: center;
+			}
+
+			.resultado {
+				text-align: right;
+				background-color: #fff;
+				width: 100%;
+				height: 50px;
+				border-radius: 5px;
+			}
+
+			.titcalc {
+				text-align: right;
+				padding-right: 20px;
+			}
+
+			.button-calc {
+				width: 2rem;
+				height: 2rem;
+				background-color: #cecece;
+				border-radius: 100%;
+			}
+
+	</style>
+
 	<title>Calculadora</title>
 </head>
 <body>
 
 	<div class="calc">
-		<h1>CALC. BERG</h1>
+		<h1 class="titulo">CALC. BERG</h1>
 			<div>
-				<h3>CALCULADORA</h3>
-				<p id="resultado"></p>
+				<p class="resultado" id="resultado"></p>
+
 				<table class="table">
 					<tr>
-						<td><button>C</button></td>
-						<td><button><-</button></td>
-						<td><button>/</button></td>
-						<td><button>*</button></td>
+						<td><button class="button-calc">C</button></td>
+						<td><button class="button-calc"><</button></td>
+						<td><button class="button-calc">/</button></td>
+						<td><button class="button-calc">*</button></td>
 					</tr>
 					<tr>
-						<td><button>7</button></td>
-						<td><button>8</button></td>
-						<td><button>9</button></td>
-						<td><button>-</button></td>
+						<td><button class="button-calc">7</button></td>
+						<td><button class="button-calc">8</button></td>
+						<td><button class="button-calc">9</button></td>
+						<td><button class="button-calc">-</button></td>
 					</tr>
 					<tr>
-						<td><button>4</button></td>
-						<td><button>5</button></td>
-						<td><button>6</button></td>
-						<td><button>+</button></td>
+						<td><button class="button-calc">4</button></td>
+						<td><button class="button-calc">5</button></td>
+						<td><button class="button-calc">6</button></td>
+						<td><button class="button-calc">+</button></td>
 					</tr>
 					<tr>
-						<td><button>1</button></td>
-						<td><button>2</button></td>
-						<td><button>3</button></td>
-						<td rowspan="2"><button>=</button></td>
+						<td><button class="button-calc">1</button></td>
+						<td><button class="button-calc">2</button></td>
+						<td><button class="button-calc">3</button></td>
+						<td rowspan="2"><button class="button-calc">=</button></td>
 					</tr>
 					<tr>
-						<td colspan="2"><button>0</button></td>
-						<td><button>,</button></td>
+						<td colspan="2"><button >0</button></td>
+						<td><button class="button-calc">,</button></td>
 					</tr>
 				</table>
+
 			</div>
 	</div>
 
