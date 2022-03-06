@@ -1,0 +1,22 @@
+<h3 style="margin-top: -20px;">Trabalho e moro em Fortaleza/CE</h3>
+
+Atuo na criação de layout para impressos de diversas naturezas, tais como revistas, livros, cartazes, folders, jornais, vitrines, outdoors e demais formatos, tanto quanto daqueles que empregram recursos próprios aos meios virtuais.<br>
+Também como produtor gráfico e Diretor de arte, acompanho os trabalhos de impressão e acabamento de impressos em geral.
+<br>
+Crio marcas e logotipos, além de projetar e participar de tarefas de implantação relativas à criação de identidades visuais e estabelecer parâmetros para a utilização correta da marca.</p>
+
+<ul class="actions">
+  <li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+</ul>
+</div>
+<div class="image filtered span-1-75" data-position="25% 25%">
+<img src="images/pic01_berg4.jpg" alt="" />
+</div>
+</section>
+
+<!-- Panel (Spotlight) -->
+<section class="panel spotlight medium right" id="first">
+<div class="content span-7">
+<h2 class="major">Um pouco sobre mim...</h2>
+<p>Filho de músico e de uma costureira, meu pai tocava nas noites de Fortaleza e passava o dia conosco (eu e minha irmã) ele decidiu meu nome ainda na adolecência, não sei se meu nome influenciou para entrar na área, mas a influência direta de meu pai tenho certeza, nos anos 2000 ele me levava as gráficas para imprimir suas capas de CD's e naquele ambiente despertei o interresse por softwares de criação, ele t como hobby ficar desenhando, aquilo maravilhava tanto a mim quanto a Natalia que hoje é artista por conta dessa referência "acretido eu". Gutenberg não foi designer, ele foi tipográfro, mas a tipografia é design. </p>
+</div>
